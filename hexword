@@ -59,7 +59,7 @@ do
 	elif [ "$ARG" = "-los" ] ; then
 		METHOD=$L_O_S
 		INPUT=$(echo "$INPUT" | grep "\<$METHOD*\>")
-	elif [ "$ARG" = "-a" ] ; then
+	elif [ "$ARG" = "-all" ] ; then
 		METHOD=$ALL
 		INPUT=$(echo "$INPUT" | grep "\<$METHOD*\>")
 	elif [ ! -f $ARG ] ; then 
