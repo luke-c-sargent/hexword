@@ -15,7 +15,7 @@ if [ $# -eq "0" ]; then
   | $$  | $$| $$_____/  >$$  $$ | $$ | $$ | $$| $$  | $$| $$     | $$  | $$
   | $$  | $$|  $$$$$$$ /$$/\  $$|  $$$$$/$$$$/|  $$$$$$/| $$     |  $$$$$$$
   |__/  |__/ \_______/|__/  \__/ \_____/\___/  \______/ |__/      \_______/'$NC
-	echo "             create strings of hex compopsed of words
+	echo "           create strings of hex composed of 'hexified' words
 usage:
   PIPES: stdout source | ./hexword [filter] arg1 arg2 ... argn
   TEXT : ./hexword filename filter arg1 arg2 ... argn
